@@ -52,7 +52,7 @@ export default function LoginScreen({ onSignUp, onSuccess }: LoginScreenProps) {
         </motion.div>
 
         {/* Title */}
-        <h1 className="text-3xl font-bold text-[#2196F3] mb-8">Log in</h1>
+        <h1 className="text-3xl font-bold text-[#2196F3] mb-8">Вход</h1>
 
         <form onSubmit={handleSubmit} className="w-full space-y-4">
           {/* Email */}
@@ -87,7 +87,7 @@ export default function LoginScreen({ onSignUp, onSuccess }: LoginScreenProps) {
               </button>
             </div>
             <div className="text-right mt-2">
-              <button className="text-sm text-[#2196F3]">Forgot Password?</button>
+              <button className="text-sm text-[#2196F3]">Забыли пароль?</button>
             </div>
           </div>
 
@@ -97,14 +97,14 @@ export default function LoginScreen({ onSignUp, onSuccess }: LoginScreenProps) {
             whileTap={{ scale: 0.95 }}
             className="w-full bg-[#2196F3] text-white py-4 rounded-xl font-semibold text-lg shadow-lg"
           >
-            Login
+            Войти
           </motion.button>
         </form>
 
         {/* Divider */}
         <div className="flex items-center my-6 w-full">
           <div className="flex-1 border-t border-gray-300"></div>
-          <span className="px-4 text-sm text-gray-500">or Login with</span>
+          <span className="px-4 text-sm text-gray-500">или войдите через</span>
           <div className="flex-1 border-t border-gray-300"></div>
         </div>
 
@@ -132,7 +132,7 @@ export default function LoginScreen({ onSignUp, onSuccess }: LoginScreenProps) {
             onClick={onSignUp}
             className="text-[#2196F3] font-medium"
           >
-            Don't have an account ? sign up
+            Нет аккаунта? Зарегистрируйтесь
           </button>
         </div>
       </div>
